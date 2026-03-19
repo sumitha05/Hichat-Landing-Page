@@ -40,4 +40,7 @@
 .features-1 {
     display: flex;
     background-color: pink;
+    align-items: center;
+    justify-content: center; 
+
 }
