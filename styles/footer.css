@@ -4,10 +4,6 @@
     padding: 60px 0;
 }
 
-.footer p {
-    display: flex;
-}
-
 .footer h3 {
     margin: 0;
     font-size: 20px;
@@ -15,7 +11,7 @@
 }
 
 .footer li {
-    font-size: 18px;
+    font-size: 16px;
     color: #4D4D4D;
     cursor: pointer;
 }
@@ -42,6 +38,7 @@
 }
 
 .links {
+    background-color: aqua;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -58,8 +55,11 @@
 }
 
 .company-caption {
+    display: inline-block;
+    white-space: nowrap;
     color: #4D4D4D;
     font-size: 18px;
+    font-weight: 500;
 }
 
 .footer-bottom-section {
