@@ -1,8 +1,7 @@
 .hero-section {
     display: flex;
-    position: relative;
+    /* position: relative; */
     flex-direction: column;
-    justify-content: center;
     height: 700px;
     background: linear-gradient(135deg, #3B4E9D, #EAEBEB);
 }
@@ -35,11 +34,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 48px;
 }
 
 .hero-content p {
     font-size: 16px;
+}
+
+.hero-content-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
 }
 
 .hero-image {

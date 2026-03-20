@@ -1,12 +1,13 @@
 .navbar {
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     justify-content: space-between;
     align-items: center;
     padding: 32px 120px;
     top: 0;
     left: 0;
     right: 0;
+    /* backdrop-filter: blur(60px); */
 }
 
 .nav-left {
