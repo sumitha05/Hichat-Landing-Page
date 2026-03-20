@@ -123,12 +123,13 @@
 .dots-1 {
     width: 100px;
     position: absolute;
-    top: 120px;
+    top: 80px;
     right: 10px;
 }
 
 .dots-2 {
     width: 100px;
     position: absolute;
+    left: 10px;
     bottom: 26px;
 }
